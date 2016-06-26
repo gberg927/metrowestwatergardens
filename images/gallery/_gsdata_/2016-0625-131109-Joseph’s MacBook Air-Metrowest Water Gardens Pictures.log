@@ -1,0 +1,10 @@
+2016-06-25 13:11:10: -- Analysis Started by User
+2016-06-25 13:11:13: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 162
+2016-06-25 13:11:13: Left to Right: Copy File: 2 
+2016-06-25 13:11:13: -- Analysis Complete. Time 00:00:04, Speed: 37 files/s
+2016-06-25 13:11:13: 
+2016-06-25 13:11:16: == Sync Started by User
+2016-06-25 13:11:18: Copy New '/Users/Joe/Desktop/MWWG/Pictures/critters/critters_1.jpg' -> 'ftp://metrowestwatergardens.com/critters/critters_1.jpg'
+2016-06-25 13:11:19: Copy New '/Users/Joe/Desktop/MWWG/Pictures/critters/critters_2.jpg' -> 'ftp://metrowestwatergardens.com/critters/critters_2.jpg'
+2016-06-25 13:11:20: == Sync Complete. Time: 00:00:05, Speed: 59.2 KB/s, OK: 2, Errors: 0
+2016-06-25 13:11:20: 

@@ -1,3 +1,6 @@
+.DS_Store
+*/photo/gallery/*
+*/cgi-bin/*
 */config/development
 */logs/log-*.php
 */logs/!index.html

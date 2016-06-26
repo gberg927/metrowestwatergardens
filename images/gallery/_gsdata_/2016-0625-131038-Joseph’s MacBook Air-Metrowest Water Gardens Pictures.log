@@ -1,0 +1,10 @@
+2016-06-25 13:10:39: -- Analysis Started by User
+2016-06-25 13:10:42: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 162
+2016-06-25 13:10:42: Left to Right: Delete File: 2 
+2016-06-25 13:10:42: -- Analysis Complete. Time 00:00:04, Speed: 37 files/s
+2016-06-25 13:10:42: 
+2016-06-25 13:10:45: == Sync Started by User
+2016-06-25 13:10:46: Delete File 'ftp://metrowestwatergardens.com/critters/critters_1.jpg'
+2016-06-25 13:10:46: Delete File 'ftp://metrowestwatergardens.com/critters/critters_2.jpg'
+2016-06-25 13:10:47: == Sync Complete. Time: 00:00:04, Speed: 921.0/s, OK: 2, Errors: 0
+2016-06-25 13:10:47: 
