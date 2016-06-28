@@ -1,0 +1,124 @@
+.navbar-fixed-top {
+  background-color: rgba(249,249,249, .8);
+  border: 0;
+  border-bottom: 1px solid #eee;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 0 5px 0 #000;
+  transition: all 0.5s ease 0s;
+  height: 110px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.nav {
+  height: 110px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.nav > li {
+  height: 110px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.nav > li > a {
+  height: 110px;
+  display: table-cell;
+  vertical-align: bottom;
+  color: #0c5a82;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #E2CFCB;
+}
+
+.nav > li > a:hover:after {
+    content: "";
+    display: block;
+    border: 12px solid #bbb;
+    border-bottom-color: #000;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+body {
+    padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #FFFFFF;
+}
+
+footer {
+  background-color: #292c2f;
+  border-top: 1px solid #eee;
+  z-index: 999;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  padding: 10px 0px 10px 0px;
+}
+
+footer h4, h5 {
+	color: #ffffff;
+}
+
+footer p {
+	display: inline-block;
+	color: #ffffff;
+}
+
+footer p span{
+	font-weight: normal;
+	font-size: 14px;
+}
+
+footer p a{
+	color:  #5383d3;
+	text-decoration: none;
+}
+
+.content {
+  padding: 25px 0px 25px 0px;
+}
+
+.info h2 {
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 2px;
+}
+
+.info-img {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.info-img i.icon-check:before {
+    left: 0;
+    position: absolute;
+}
+
+.business-header {
+    height: 400px;
+    background: url('../banner.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline {
+    margin-top: -55px;
+}
+
+.tagline .slogan {
+    font-weight: normal;
+    letter-spacing: 0.1px;
+    font-style: italic;
+}
+
+.img-center {
+    margin: 0 auto;
+}
