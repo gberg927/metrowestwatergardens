@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Frontpage - Start Bootstrap Template</title>
+    <title>MetroWest Water Gardens</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../mwwg-bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -17,24 +17,29 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
-    <nav class="navbar navbar navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle collapsed inverse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                  <img src="../mwwg-bootstrap/logo.png" alt="Metrowest Water Gardens">
+                    <img src="../mwwg-bootstrap/logo_no_text.png" alt="Metrowest Water Gardens">
                 </a>
+                <div class="navbar-text">
+                  <a class="navbar-brand" href="#">
+                    <h3 class="title">Metrowest Water Gardens</h3>
+                    <p>"Your Water Feature Specialist"</p>
+                  </a>
+                </div>
             </div>
-            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+            <div id="navbar" class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li class="active">
                         <a href="#">Home</a>
                     </li>
                     <li>
@@ -113,14 +118,15 @@
               </div>
             </div>
         </div>
+        <div class="push"></div>
     </div>
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-8">
             <div>
               <h4>Metrowest Water Gardens</h4>
-              <p>"Your full service water feature specialist"</p><br>
+              <p>MetroWest Water Gardens specializes in designing, building and maintaining beautiful water gardens; turning your yard into your own beautiful paradise. </p>
               <p>&copy; <?php echo date("Y"); ?></p>
             </div>
           </div>
@@ -130,14 +136,14 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-map-marker fa-inverse fa-stack-1x "></i>
               </span>
-              <p><span>24 Moore Rd</span> Hopedale, MA 01747</p>
+                <p><a href="http://maps.google.com/?q=24 Moore Rd, Hopedale, MA 01747"><span>24 Moore Rd</span> Hopedale, MA 01747</a></p>
             </div>
             <div>
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-phone fa-inverse fa-stack-1x "></i>
               </span>
-              <p>(508) 916-1535</p>
+              <p><a href="tel:508-916-1535">(508) 916-1535</a></p>
             </div>
             <div>
               <span class="fa-stack fa-lg">
@@ -147,14 +153,10 @@
               <p><a href="mailto:pondguys@metrowestwatergardens.com">pondguys@metrowestwatergardens.com</a></p>
             </div>
           </div>
-          <div class="col-lg-4">
-            <h5>About the company</h5>
-            <p>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
-          </div>
-        </div>
       </div>
+
     </footer>
-    <script src="../mwwg-bootstrap/js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="../mwwg-bootstrap/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/c272f4dbd3.js"></script>
 </body>

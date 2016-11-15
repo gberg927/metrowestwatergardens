@@ -1,3 +1,8 @@
+body {
+    padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #FFFFFF;
+}
+
 .navbar-fixed-top {
   background-color: rgba(249,249,249, .8);
   border: 0;
@@ -30,26 +35,46 @@
   color: #0c5a82;
 }
 
+.nav .active:after {
+  content: "";
+  display: block;
+  border-bottom: 12px solid #1f5069;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-bottom-color: #292c2f;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -12px;
+}
+
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #E2CFCB;
 }
 
-.nav > li > a:hover:after {
-    content: "";
-    display: block;
-    border: 12px solid #bbb;
-    border-bottom-color: #000;
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    margin-left: -12px;
+.navbar-toggle .icon-bar{
+  background-color: #000000;
 }
 
-body {
-    padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #FFFFFF;
+.navbar-brand img:hover {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+}
+
+.navbar-header .navbar-text {
+  margin-top: 3px;
+  margin-left: -8px;
+}
+
+.navbar-header .navbar-text .title {
+  font-weight: bold;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.push {
+    height: 140px;
 }
 
 footer {
@@ -82,6 +107,11 @@ footer p a{
 
 .content {
   padding: 25px 0px 25px 0px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -46px;
+  
 }
 
 .info h2 {
