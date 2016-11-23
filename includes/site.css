@@ -1,7 +1,26 @@
+/*Basic Stuff*/
 body {
     padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: #FFFFFF;
 }
+
+.content {
+  padding: 25px 0px 25px 0px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -140px; 
+}
+
+.content {
+  padding: 25px 0px 25px 0px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -46px; 
+}
+
+/*Navbar*/
 
 .navbar-fixed-top {
   background-color: rgba(249,249,249, .8);
@@ -14,6 +33,26 @@ body {
   height: 110px;
   display: table-cell;
   vertical-align: bottom;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: #000000;
+}
+
+.navbar-brand img:hover {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+}
+
+.navbar-header .navbar-text {
+  margin-top: 3px;
+  margin-left: -8px;
+}
+
+.navbar-header .navbar-text .title {
+  font-weight: bold;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 .nav {
@@ -53,29 +92,7 @@ body {
   text-decoration: none;
 }
 
-.navbar-toggle .icon-bar{
-  background-color: #000000;
-}
-
-.navbar-brand img:hover {
-  -ms-transform: rotate(7deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
-}
-
-.navbar-header .navbar-text {
-  margin-top: 3px;
-  margin-left: -8px;
-}
-
-.navbar-header .navbar-text .title {
-  font-weight: bold;
-  border-bottom: 1px solid #d5d5d5;
-}
-
-.push {
-    height: 140px;
-}
+/*Footer*/
 
 footer {
   background-color: #292c2f;
@@ -105,15 +122,6 @@ footer p a{
 	text-decoration: none;
 }
 
-.content {
-  padding: 25px 0px 25px 0px;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -46px;
-  
-}
-
 .info h2 {
   border-bottom: 1px solid #d5d5d5;
   padding-bottom: 2px;
@@ -132,7 +140,7 @@ footer p a{
 
 .business-header {
     height: 400px;
-    background: url('../banner.jpg') center center no-repeat scroll;
+    background: url('../images/banner.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -151,4 +159,49 @@ footer p a{
 
 .img-center {
     margin: 0 auto;
+}
+
+.top-buffer {
+  margin-top:20px; 
+}
+
+.service-title {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.service-panel {
+  padding: 25px;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid #292c2f;
+  color: #000000;
+}
+
+.service-panel img {
+    width: 100%;
+}
+
+.service-panel h4 {
+    font-weight: bold;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+ }
+
+.row-eq-height > [class*="col-"] {
+  float:none;
+  display:table-cell;
+  vertical-align:top;
 }

@@ -1,47 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>MetroWest Water Gardens</title>
-	<meta name="google-site-verification" content="onnkWmd6hPTa5aFMakZMmBpQatA8D0kGhVr0ueAED48" />
-        <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/reset.css">
-	<link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/960.css">
-        <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/nivo-slider.css">
-        <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/default.css">
-        <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/lightbox.css" />
-        <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/style.css">
-        <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>includes/jquery.openCarousel.css">
-        <link href='http://fonts.googleapis.com/css?family=Rufina:400,700' rel='stylesheet' type='text/css'>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-        <script src="<? echo base_url(); ?>includes/jquery.nivo.slider.pack.js" type="text/javascript"></script>
-        <script src="<? echo base_url(); ?>includes/jquery.openCarousel.js" type="text/javascript" ></script>
-        <script src="<? echo base_url(); ?>includes/lightbox.js"></script>
-        <link rel="shortcut icon" type="image/png" href="<? echo base_url(); ?>/images/favicon.png" />
-        <script type="text/javascript">
-            $(window).load(function() {
-                $('#slider').nivoSlider();
-            });
-        </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MetroWest Water Gardens</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="<? echo base_url(); ?>includes/bootstrap.css" rel="stylesheet">
+    <link href="<? echo base_url(); ?>includes/site.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id ="mainContent" class="container_12">
-        <div id="logo" class="grid_3">
-            <a href="<? echo base_url(); ?>">
-                <img src="<? echo base_url(); ?>images/logo.png" alt="MWG" height="73" width="233"/>
-            </a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed inverse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<? echo base_url(); ?>">
+                    <img src="<? echo base_url(); ?>images/logo.png" alt="Metrowest Water Gardens">
+                </a>
+                <div class="navbar-text">
+                  <a class="navbar-brand" href="<? echo base_url(); ?>">
+                    <h3 class="title">Metrowest Water Gardens</h3>
+                    <p>"Your Water Feature Specialist"</p>
+                  </a>
+                </div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li <?php if ($this->router->fetch_class() == "home") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>">Home</a>
+                    </li>
+                    <li <?php if ($this->router->fetch_class() == "about") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>about">About</a>
+                    </li>
+                    <li <?php if ($this->router->fetch_class() == "services") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>services">Services</a>
+                    </li>
+                    <li <?php if ($this->router->fetch_class() == "gallery") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>gallery">Photo Gallery</a>
+                    </li>
+                    <li <?php if ($this->router->fetch_class() == "contact") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="title" class="grid_9">
-            <div id="name"><a href="<? echo base_url(); ?>">MetroWest Water Gardens</a></div>
-            <br />
-            <div id="slogan">"Your full service water feature specialist"</div>
-        </div>
-
-        <div id="links" class="grid_3">
-            <ul>
-                <li><a href="<? echo base_url(); ?>home">Home</a></li>
-                <li><a href="<? echo base_url(); ?>about">About</a></li>
-                <li><a href="<? echo base_url(); ?>services">Services</a></li>
-                <li><a href="<? echo base_url(); ?>gallery">Photo Gallery</a></li>
-                <!--<li><a href="<? echo base_url(); ?>contact">Contact</a></li>-->
-            </ul>
-            <div id="image"><a href="<? echo base_url(); ?>about#aquascape"><img src="<? echo base_url(); ?>images/aquascape.png" /></a></div>
-        </div>
+    </nav>

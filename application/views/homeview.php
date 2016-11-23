@@ -1,27 +1,60 @@
-<div id="content" class="grid_9">                
-    <div class="slider-wrapper theme-default">
-        <div id="slider" class="nivoSlider">
-            <img src="<? echo base_url(); ?>images/slider/01.jpg" alt="" />
-            <img src="<? echo base_url(); ?>images/slider/02.jpg" alt="" />
-            <img src="<? echo base_url(); ?>images/slider/03.jpg" alt="" />
+<header class="business-header"></header>
+<div class="container content">
+    <div class="row">
+        <div class="col-sm-4 info">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Design</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 info-img">
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-book fa-stack-1x "></i>
+              </span>
+            </div>
+            <div class="col-sm-8">
+              <p>We specialize in designing, installing and maintaining water gardens and water features, because we have the knowledge and background to do it right!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 info">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Install</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 info-img">
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-tasks fa-stack-1x "></i>
+              </span>
+            </div>
+            <div class="col-sm-8">
+              <p>We create all types of water gardens and water features to fit your budget, focusing primarily on installing Aquascape Designs' Complete Pond Solutions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 info">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>Maintain</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 info-img">
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-wrench fa-stack-1x "></i>
+              </span>
+            </div>
+            <div class="col-sm-8">
+              <p>If you want your pond to stay in tip-top shape all season long and do not always have the time to check on filters, trim back and fertilize plants, and care for the pond, then have us do it for you!</p>
+            </div>
+          </div>
         </div>
     </div>
-</div>
-
-<div id ="info" class="grid_4">
-    <a href="<? echo base_url(); ?>services#design"><h1>Design</h1></a>
-    <div id="image"><a href="<? echo base_url(); ?>services#design"><img src="<? echo base_url(); ?>images/design.png" /></a></div>
-    <div id="text">We specialize in designing, installing and maintaining water gardens and water features, because we have the knowledge and background to do it right!</div>
-</div>
-
-<div id ="info" class="grid_4">
-    <a href="<? echo base_url(); ?>services#installations"><h1>Install</h1></a>
-    <div id="image"><a href="<? echo base_url(); ?>services#installations"><img src="<? echo base_url(); ?>images/install.png" /></a></div>
-    <div id="text">We create all types of water gardens and water features to fit your budget, focusing primarily on installing Aquascape Designs' Complete Pond Solutions.</div>
-</div>
-
-<div id ="info" class="grid_4">
-    <a href="<? echo base_url(); ?>services#springcleanouts"><h1>Maintain</h1></a>
-    <div id="image"><a href="<? echo base_url(); ?>services#springcleanouts"><img src="<? echo base_url(); ?>images/maintain.png" /></a></div>
-    <div id="text">If you want your pond to stay in tip-top shape all season long and do not always have the time to check on filters, trim back and fertilize plants, and care for the pond, then have us do it for you!</div>
+    <div class="push"></div>
 </div>

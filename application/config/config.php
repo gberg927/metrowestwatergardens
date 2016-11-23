@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://metrowestwatergardens.com';
+$config['base_url']	= 'http://mwwg.local:8080';
 
 /*
 |--------------------------------------------------------------------------
