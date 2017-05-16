@@ -1,4 +1,4 @@
-	<footer class="footer navbar-fixed-bottom">
+	<footer class="footer navbar-fixed-bottom" id="footer">
 	  <div class="container">
 	    <div class="row">
 	      <div class="col-lg-8">
@@ -36,5 +36,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/c272f4dbd3.js"></script>
+	<script src="<? echo base_url(); ?>includes/scripts.js"></script>
+	<script src="<? echo base_url(); ?>includes/photoswipe/photoswipe.min.js"></script>
+	<script src="<? echo base_url(); ?>includes/photoswipe/photoswipe-ui-default.min.js"></script>
+	<?php include_once("analyticstracking.php") ?>
 </body>
 </html>

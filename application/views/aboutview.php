@@ -1,4 +1,4 @@
-<div class="container content">
+<div class="container content" id="content">
     <div class="row text-center">
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="service-title">About</h2>

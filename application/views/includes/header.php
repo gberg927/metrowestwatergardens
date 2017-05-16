@@ -14,11 +14,14 @@
     <!-- Bootstrap Core CSS -->
     <link href="<? echo base_url(); ?>includes/bootstrap.css" rel="stylesheet">
     <link href="<? echo base_url(); ?>includes/site.css" rel="stylesheet">
+    <link href="<? echo base_url(); ?>includes/photoswipe/photoswipe.css" rel="stylesheet">
+    <link href="<? echo base_url(); ?>includes/photoswipe/default-skin/default-skin.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="<? echo base_url(); ?>images/favicon.png" />
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation" id="header">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed inverse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,7 +36,7 @@
                 <div class="navbar-text">
                   <a class="navbar-brand" href="<? echo base_url(); ?>">
                     <h3 class="title">Metrowest Water Gardens</h3>
-                    <p>"Your Water Feature Specialist"</p>
+                    <p class="slogan">"Your Water Feature Specialist"</p>
                   </a>
                 </div>
             </div>

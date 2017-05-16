@@ -1,5 +1,5 @@
 <header class="business-header"></header>
-<div class="container content">
+<div class="container content" id="content">
     <div class="row">
         <div class="col-sm-4 info">
           <div class="row">
