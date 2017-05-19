@@ -26,7 +26,7 @@
                     <label for="email" class="control-label">Email Address</label>
                 </div>
                 <div class="col-md-12">
-                    <input class="form-control" name="email" placeholder="Your Email ID" type="text" value="<?php echo set_value('email'); ?>" />
+                    <input class="form-control" name="email" placeholder="Your Email Address" type="text" value="<?php echo set_value('email'); ?>" />
                     <span class="text-danger"><?php echo form_error('email'); ?></span>
                 </div>
             </div>

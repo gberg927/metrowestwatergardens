@@ -22,7 +22,7 @@
         <div class="col-sm-4 info">
           <div class="row">
             <div class="col-sm-12">
-              <h2>Install</h2>
+              <h2><a href="<? echo base_url(); ?>installation">Installation</a></h2>
             </div>
           </div>
           <div class="row">
@@ -40,7 +40,7 @@
         <div class="col-sm-4 info">
           <div class="row">
             <div class="col-sm-12">
-              <h2>Maintain</h2>
+              <h2><a href="<? echo base_url(); ?>maintenance">Maintenance</a></h2>
             </div>
           </div>
           <div class="row">

@@ -16,7 +16,7 @@
     <link href="<? echo base_url(); ?>includes/site.css" rel="stylesheet">
     <link href="<? echo base_url(); ?>includes/photoswipe/photoswipe.css" rel="stylesheet">
     <link href="<? echo base_url(); ?>includes/photoswipe/default-skin/default-skin.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="<? echo base_url(); ?>images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="<? echo base_url(); ?>images/favicon.ico" />
 </head>
 
 <body>
@@ -48,8 +48,11 @@
                     <li <?php if ($this->router->fetch_class() == "about") echo 'class="active"'; ?>>
                         <a href="<? echo base_url(); ?>about">About</a>
                     </li>
-                    <li <?php if ($this->router->fetch_class() == "services") echo 'class="active"'; ?>>
-                        <a href="<? echo base_url(); ?>services">Services</a>
+                    <li <?php if ($this->router->fetch_class() == "installation") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>installation">Installation</a>
+                    </li>
+                    <li <?php if ($this->router->fetch_class() == "maintenance") echo 'class="active"'; ?>>
+                        <a href="<? echo base_url(); ?>maintenance">Maintenance</a>
                     </li>
                     <li <?php if ($this->router->fetch_class() == "gallery") echo 'class="active"'; ?>>
                         <a href="<? echo base_url(); ?>gallery">Photo Gallery</a>

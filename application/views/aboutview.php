@@ -14,7 +14,7 @@
         </div>
         <div class="col-sm-6 col-md-4">
             <div class="service-panel">
-                <img class="img-circle" alt="About Metrowest Water Gardens" src="<? echo base_url(); ?>images/aquascape.png" />
+                <img class="img-circle" alt="About Metrowest Water Gardens" src="<? echo base_url(); ?>images/location.png" />
                 <h3>Location</h3>
                 <p>Located in Hopedale, Massachusetts, we offer a complete array of "on-site" design, consultation, installation, aquascaping, landscaping and maintenance services to customers from Boston to Worcester to Southern New Hampshire to Northern Rhode Island and other areas across Eastern Massachusetts.</p>
             </div>

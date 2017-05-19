@@ -1,5 +1,5 @@
 <a href="<? echo base_url() . 'gallery/individual/' . url_title($title); ?>"><h3 class="service-title"><? echo ucwords($title); ?></h3></a>
-<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+<div class="<? echo url_title($title); ?>-gallery" itemscope itemtype="http://schema.org/ImageGallery">
     <div class="row">
         <div class="offset-md-2 col-md-12">
             <div class="row">

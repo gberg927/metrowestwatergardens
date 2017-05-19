@@ -1,24 +1,24 @@
 // function to set the height on fly
 function autoHeight() {
-	$marginBottom = $('#footer').height() + parseInt($('#content').css('padding-bottom'));
-	$('#content').css('margin-bottom', $marginBottom);
+    $marginBottom = $('#footer').height() + parseInt($('#content').css('padding-bottom'));
+    $('#content').css('margin-bottom', $marginBottom);
 }
 
 // onDocumentReady function bind
 $(document).ready(function() {
-	autoHeight();
+    autoHeight();
 });
 
 // onResize bind of the function
 $(window).resize(function() {
-	autoHeight();
+    autoHeight();
 });
 
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox({
-    	alwaysShowClose: false,
-	});
+        alwaysShowClose: false,
+    });
 });
 
 var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -104,7 +104,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         // find index of clicked item by looping through all child nodes
         // alternatively, you may define index via data- attribute
-        console.log(document.querySelectorAll(gallerySelector)[0].getElementsByTagName('figure'));
 
         /*var clickedGallery = clickedListItem.parentNode,
             childNodes = clickedListItem.parentNode.childNodes,
@@ -241,4 +240,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
+initPhotoSwipeFromDOM('.before-and-after-gallery');
+initPhotoSwipeFromDOM('.critters-gallery');
+initPhotoSwipeFromDOM('.plants-gallery');
+initPhotoSwipeFromDOM('.ponds-gallery');
+initPhotoSwipeFromDOM('.waterfalls-gallery');
 initPhotoSwipeFromDOM('.my-gallery');
